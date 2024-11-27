@@ -1,0 +1,11 @@
+for (int i = 0; i < numbers.Length; i++)
+{
+    if (numbers[i] > max) // inte <
+    {
+        max = numbers[i];
+    }
+}
+
+Vilkoret för variablen max ska anta ett annat värde än 0 fylls aldrig när numbers[i] inte är mindre än 0, som är definitionen på variabeln
+max. För att for-slingan ska aktivera koden ska "<" ändras till ">", dvs till "större än" 0, dvs den primära definitionen på variabeln max.
+
