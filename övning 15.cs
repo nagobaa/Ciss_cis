@@ -25,7 +25,7 @@ namespace LogicalError1
 
 
 
-            Console.ReadLine();
+            Console.ReadLine();  
         }
     }
 }
