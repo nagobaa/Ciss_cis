@@ -1,0 +1,2 @@
+Det saknas helt ovan "using System;" och istället för "i <= numbers.length" ska det vara "i < numbers.length". Ifall det vore
+"mindre eller lika med" skulle for-slingan komma på ett icke-existerande element i listan. 
