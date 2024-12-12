@@ -33,6 +33,7 @@ namespace uppgift27
         }
         public string Power (int x, int y)
         {
+            return $"Power result: {x} ^ {y} = {Math.Pow(x, y)}"; // "x ** y" fungerar inte i C#
         }
     }
     internal class Program
